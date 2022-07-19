@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login screen</title>
-
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Noto+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <main>
-        <form action="/list.html">
-            <label for="login">Login</label>
-            <input type="text" required>
+    <main>      
+        <form action="/list.html">            
+            <label for="user">User</label>
+            <input type="text"required>
 
             <label for="senha">Senha</label>
             <input type="password" required>
-
-            <input type="submit" value="Enviar">
+            
+            <input type="submit" class='button'value="Enviar">
         </form>
+    
     </main>
 </body>
 </html>

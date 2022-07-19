@@ -1,0 +1,26 @@
+body {
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+form {
+    background-color: lightgray;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    margin: 140px auto;
+    padding: 50px;    
+    border-radius: 8px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+
+
+
