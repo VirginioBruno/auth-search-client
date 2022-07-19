@@ -1,26 +1,9 @@
-body {
-    font-family: 'Albert Sans', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18pt;
-    font-weight: bold;
+* {
+    padding: 0;
+    margin: 0;
+    color: #1a1f36;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
 }
-
-form {
-    background-color: lightgray;
-    width: 220px;
-    height: 250px;
-    text-align: center;
-    margin: 140px auto;
-    padding: 50px;    
-    border-radius: 8px;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-
-
-
