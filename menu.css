@@ -1,0 +1,19 @@
+main section {
+    display: inline-block;
+}
+
+section.lateral-menu {
+    width: 25%;
+    background-color: #1a1f36;
+    height: 100vh;
+}
+
+section.lateral-menu p {
+    color: #fff;
+}
+
+section.items {
+    height: 100vh;
+    padding: 10%;
+}
+
