@@ -10,16 +10,18 @@
 </head>
 <body>
     <main>   
-        <form action="/list.html">       
+        <form id="form-login" action="">       
             <h3>Sign in to your account</h3>
             <label for="user">User</label>
-            <input type="text" required>
+            <input id="username" type="text" required>
 
             <label for="password">Password</label>
-            <input type="password" required>
+            <input id="password" type="password" required>
             
             <input type="submit" value="Send">
         </form>
+        <div id="loading" class="hidden">Loading</div>
     </main>
 </body>
+<script src="login.js"></script>
 </html>
